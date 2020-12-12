@@ -18,7 +18,7 @@ sudo kubeadm init  --token=${TOKEN} --kubernetes-version=v1.19.0 --pod-network-c
  curl -sSL https://raw.githubusercontent.com/coreos/flannel/v0.12.0/Documentation/kube-flannel.yml
  kubectl apply -f kube-flannel.yml
 
-#Download calica yaml. Change pod CIDR to 10.100.0.0/16 and apply
+# Download calico yaml. Change pod CIDR to 10.100.0.0/16 and apply
 #
 #    wget https://docs.projectcalico.org/v3.11/manifests/calico.yaml
 #    nano calico yaml
