@@ -1,5 +1,7 @@
 # Basic setup of Raspberry
 Install 64bit OS (Ubuntu 64 Bit 20.10 Server)
+This installation follws the article 
+https://opensource.com/article/20/6/kubernetes-raspberry-pi
 
 ## Setup before first boot
 On PC edit an add WLAN configuration
